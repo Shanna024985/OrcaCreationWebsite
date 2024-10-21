@@ -1,0 +1,402 @@
+  
+#go-to-top-button {
+    position: sticky;
+    bottom: 20px;
+    right: 30px;
+    background: #ff9100;
+    color: #fff;
+    opacity: 0.5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 2000px) {
+    #go-to-top-button{
+            transform: translateX(48cm);
+    }
+}
+
+@media only screen and (max-width: 1975px) {
+    #go-to-top-button{
+            transform: translateX(47.4cm);
+    }
+}
+
+@media only screen and (max-width: 1950px) {
+    #go-to-top-button{
+            transform: translateX(46.8cm);
+    }
+}
+
+@media only screen and (max-width: 1925px) {
+    #go-to-top-button{
+            transform: translateX(46.2cm);
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    #go-to-top-button{
+            transform: translateX(45.6cm);
+    }
+}
+@media only screen and (max-width: 1875px) {
+    #go-to-top-button{
+            transform: translateX(45cm);
+    }
+}
+
+@media only screen and (max-width: 1850px) {
+    #go-to-top-button{
+            transform: translateX(44.4cm);
+    }
+}
+
+@media only screen and (max-width: 1825px) {
+    #go-to-top-button{
+            transform: translateX(43.8cm);
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    #go-to-top-button{
+            transform: translateX(43.2cm);
+    }
+}
+
+@media only screen and (max-width: 1775px) {
+    #go-to-top-button{
+            transform: translateX(42.6cm);
+    }
+}
+
+@media only screen and (max-width: 1750px) {
+    #go-to-top-button{
+            transform: translateX(42cm);
+    }
+}
+
+@media only screen and (max-width: 1725px) {
+    #go-to-top-button{
+            transform: translateX(41.4cm);
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    #go-to-top-button{
+            transform: translateX(40.8cm);
+    }
+}
+
+@media only screen and (max-width: 1675px) {
+    #go-to-top-button{
+            transform: translateX(40.2cm);
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    #go-to-top-button{
+            transform: translateX(39.6cm);
+    }
+}
+
+@media only screen and (max-width: 1625px) {
+    #go-to-top-button{
+            transform: translateX(39cm);
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    #go-to-top-button{
+            transform: translateX(38.4cm);
+    }
+}
+
+@media only screen and (max-width: 1575px) {
+    #go-to-top-button{
+            transform: translateX(37.8cm);
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    #go-to-top-button{
+            transform: translateX(37.2cm);
+    }
+}
+
+@media only screen and (max-width: 1525px) {
+    #go-to-top-button{
+            transform: translateX(36.6cm);
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #go-to-top-button{
+            transform: translateX(36cm);
+    }
+}
+
+@media only screen and (max-width: 1475px) {
+    #go-to-top-button{
+            transform: translateX(35.4cm);
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    #go-to-top-button{
+            transform: translateX(34.8cm);
+    }
+}
+
+@media only screen and (max-width: 1425px) {
+    #go-to-top-button{
+            transform: translateX(34.2cm);
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #go-to-top-button{
+            transform: translateX(33.6cm);
+    }
+}
+
+@media only screen and (max-width: 1375px) {
+    #go-to-top-button{
+            transform: translateX(33cm);
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    #go-to-top-button{
+            transform: translateX(32.4cm);
+    }
+}
+
+@media only screen and (max-width: 1325px) {
+    #go-to-top-button{
+            transform: translateX(31.8cm);
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #go-to-top-button{
+            transform: translateX(31.2cm);
+    }
+}
+
+@media only screen and (max-width: 1275px) {
+    #go-to-top-button{
+            transform: translateX(30.6cm);
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #go-to-top-button{
+            transform: translateX(30cm);
+    }
+}
+
+@media only screen and (max-width: 1225px) {
+    #go-to-top-button{
+            transform: translateX(29.4cm);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #go-to-top-button{
+            transform: translateX(28.8cm);
+    }
+}
+
+@media only screen and (max-width: 1175px) {
+    #go-to-top-button{
+            transform: translateX(28.2cm);
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #go-to-top-button{
+            transform: translateX(27.6cm);
+    }
+}
+
+@media only screen and (max-width: 1125px) {
+    #go-to-top-button{
+            transform: translateX(27cm);
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #go-to-top-button{
+            transform: translateX(26.4cm);
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+    #go-to-top-button{
+            transform: translateX(25.8cm);
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #go-to-top-button{
+            transform: translateX(25.2cm);
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    #go-to-top-button{
+            transform: translateX(24.6cm);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #go-to-top-button{
+            transform: translateX(24cm);
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    #go-to-top-button{
+            transform: translateX(23.4cm);
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #go-to-top-button{
+            transform: translateX(22.8cm);
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    #go-to-top-button{
+            transform: translateX(22.2cm);
+    }
+}
+@media only screen and (max-width: 900px) {
+    #go-to-top-button{
+        transform: translateX(21.6cm);
+    }
+}
+@media only screen and (max-width: 875px) {
+    #go-to-top-button{
+        transform: translateX(21cm);
+    }
+}
+@media only screen and (max-width: 850px) {
+    #go-to-top-button{
+        transform: translateX(20.4cm);
+    }
+}
+@media only screen and (max-width: 825px) {
+    #go-to-top-button{
+        transform: translateX(19.9cm);
+    }
+}
+@media only screen and (max-width: 800px) {
+    #go-to-top-button{
+        transform: translateX(19.2cm);
+    }
+}
+@media only screen and (max-width: 775px) {
+    #go-to-top-button{
+        transform: translateX(18.6cm);
+    }
+}
+@media only screen and (max-width: 750px) {
+    #go-to-top-button{
+        transform: translateX(18cm);
+    }
+}
+@media only screen and (max-width: 725px) {
+    #go-to-top-button{
+        transform: translateX(17.3cm);
+    }
+}
+@media only screen and (max-width: 700px) {
+    #go-to-top-button{
+        transform: translateX(16.8cm);
+    }
+}
+@media only screen and (max-width: 675px) {
+    #go-to-top-button{
+        transform: translateX(16.1cm);
+    }
+}
+@media only screen and (max-width: 650px) {
+    #go-to-top-button{
+        transform: translateX(15.4cm);
+    }
+}
+@media only screen and (max-width: 625px) {
+    #go-to-top-button{
+        transform: translateX(14.7cm);
+    }
+}
+@media only screen and (max-width: 600px) {
+    #go-to-top-button{
+        transform: translateX(14cm);
+    }
+}
+@media only screen and (max-width: 575px){
+    #go-to-top-button{
+        transform: translateX(13.3cm);
+    }
+}
+@media only screen and (max-width: 550px) {
+    #go-to-top-button{
+        transform: translateX(12.6cm);
+    }
+}
+@media only screen and (max-width: 525px) {
+    #go-to-top-button{
+        transform: translateX(12.2cm);
+    }
+}
+@media only screen and (max-width: 500px) {
+    #go-to-top-button{
+        transform: translateX(11.3cm);
+    }
+}
+@media only screen and (max-width: 475px) {
+    #go-to-top-button{
+        transform: translateX(10.6cm);
+    }
+}
+@media only screen and (max-width: 450px){
+    #go-to-top-button{
+        transform: translateX(9.9cm);
+    }
+}
+@media only screen and (max-width: 425px) {
+    #go-to-top-button{
+        transform: translateX(9.4cm);
+    }
+}
+@media only screen and (max-width: 400px) {
+    #go-to-top-button{
+        transform: translateX(9cm);
+    }
+}
+@media only screen and (max-width: 376px) {
+    #go-to-top-button{
+        transform: translateX(8cm);
+    }
+}
+@media only screen and (max-width: 350px) {
+    #go-to-top-button{
+        transform: translateX(7.5cm);
+    }
+}
+@media only screen and (max-width: 320px) {
+    #go-to-top-button{
+        transform: translateX(7cm);
+    }
+}
+#go-to-top-button:hover {
+    opacity: 1;
+}
+
+.hiddenone {
+    display: none;
+}
