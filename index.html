@@ -1,37 +1,593 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OrcaCreation</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/styles.css"/>
+    <title>Orca Creation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" href="Image/Orcalogo.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <link rel="stylesheet" href="src/button.css" />
 </head>
-<body>
-    <div class="overflow-hidden">
-        <div class="container-fluid d-flex flex-row justify-content-between" id="navbar" style="background-color: rgb(228, 228, 228);"> 
-            <div id="FirstNavDiv">
-                <a href="index.html"><img id="OCLogo" class="img-fluid" src="https://orcacreation.net/wp-content/uploads/thegem-logos/logo_a5877d2a80264e61b1a4cc788aa98b6e_3x.png" alt="OCLogo"/></a>
-            </div>
-            <div class="d-flex">
-                <button class="hover-button">Home</button>
-                <button class="hover-button">About us</button>
-                <button class="hover-button">Services</button>
-                <button class="hover-button">Contact</button>
-            </div>
-            <div class="d-flex">
-                <input type="search"class="form-control align-self-center" aria-label="Username" aria-describedby="basic-addon1" id="searchinput" placeholder="Search">
-            </div>
-        </div>
-        <div class="popup" style="display:none; background-color: rgb(227, 144, 19);">
-            <p id="Popup">This is the popup content!</p>
-            <div class="navanchortagdiv">
-                <a href="#"><h1>Picture</h1></a>
-            </div>
-        </div>
-    </div>
 
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-secondary sticky-top">
+        <div class="container-fluid" id="navbardi">
+            <div class="row">
+                <div id="FirstNavDiv" class="col">
+                    <a class="navbar-brand" href="index.html">
+                        <img id="OCLogo" class="img-fluid"
+                            src="https://orcacreation.net/wp-content/uploads/thegem-logos/logo_a5877d2a80264e61b1a4cc788aa98b6e_3x.png"
+                            alt="OCLogo" />
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mg-lg-0">
+                    <li class="nav-item d-none d-lg-block">
+                        <!-- <button class="hover-button nav-link active">Home</button> -->
+                        <div class="dropdowns">
+                            <button class="dropbtn hover-button" id="homepagepc">
+                                Home
+                            </button>
+                            <div class="dropdown-content container-fluid" id="dropdownforhomepc">
+                                <div class="row">
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 1</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>What we do</h1>
+                                            </a>
+                                            <p>safsgsag awgw ag</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Our Projects</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 2</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>News</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Clients</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp"
+                                            class="img-fluid mx-auto d-block" alt="sad" id="popup-pic-width" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <div class="dropdowns">
+                            <button class="hover-button" id="aboutuspc">
+                                About Us
+                            </button>
+                            <div class="dropdown-content container-fluid" id="dropdownforaboutuspc">
+                                <div class="row">
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 1</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>How we do</h1>
+                                            </a>
+                                            <p>safsgsag awgw ag</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Our Projects</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 2</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>News</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Clients</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp"
+                                            class="img-fluid mx-auto d-block" alt="sad" id="popup-pic-width" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <div class="dropdowns">
+                            <button class="hover-button" id="servicepc">
+                                Services
+                            </button>
+                            <div class="dropdown-content normal-font container-fluid" id="dropdownforservicepc">
+                                <div class="row">
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 1</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>What we do</h1>
+                                            </a>
+                                            <p>safsgsag awgw ag</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Our Projects</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 2</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>News</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Clients</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp"
+                                            class="img-fluid mx-auto d-block" alt="sad" id="popup-pic-width" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <button class="hover-button" id="contactUspc">Contact Us</button>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <div>
+                            <button class="hover-button mobile-hover-button dropbtn" id="homepageButton">
+                                Home<i class="fa fa-chevron-down ps-3 "></i>
+                            </button>
+                            <div class="dropdown-content-mobile container-fluid" style="top: -10px;">
+                                <div class="row">
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 1</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>What we do</h1>
+                                            </a>
+                                            <p>safsgsag awgw ag</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Our Projects</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <!-- <h3>Category 2</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>News</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Clients</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp"
+                                            class="img-fluid mx-auto d-block my-auto" alt="sad" id="popup-pic-width" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <div>
+                            <button class="hover-button mobile-hover-button" id="aboutusButton">
+                                About Us<i class="fa fa-chevron-down ps-3"></i>
+                            </button>
+                            <div class="dropdown-content-mobile container-fluid" id="aboutusDropdown"
+                                style="top: 45px;">
+                                <div class="row">
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 1</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>What we do</h1>
+                                            </a>
+                                            <p>safsgsag awgw ag</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Our Projects</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <!-- <h3>Category 2</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>News</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Clients</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp"
+                                            class="img-fluid mx-auto d-block" alt="sad" id="popup-pic-width" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <div>
+                            <button class="hover-button mobile-hover-button" id="serviceButton">
+                                Services<i class="fa fa-chevron-down ps-3 "></i>
+                            </button>
+                            <div class="dropdown-content-mobile container-fluid" id="ServiceDropdown"
+                                style="top: 95px;">
+                                <div class="row">
+                                    <div class="col-sm column">
+                                        <!-- <h3>Category 1</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>What we do</h1>
+                                            </a>
+                                            <p>safsgsag awgw ag</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Our Projects</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <!-- <h3>Category 2</h3> -->
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>News</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                        <div class="navanchortagdiv">
+                                            <a href="#">
+                                                <h1>Clients</h1>
+                                            </a>
+                                            <p>Sgasgsagah asf</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm column">
+                                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp"
+                                            class="img-fluid mx-auto d-block" alt="sad" id="popup-pic-width" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <button class="hover-button" id="contactusButton">Contact Us</button>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="input-group">
+                        <input type="search" class="form-control align-self-center" aria-label="Username"
+                            aria-describedby="basic-addon1" id="searchinput" placeholder="Search">
+                        <span class="input-group-text button" id="basic-addon1">
+                            <a>
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container-fluid" id="backgroundvideo">
+            <div class="col-sm bg-white paddingForFrontPage hidden">
+                <div class="text d-flex justify-content-center align-items-center flex-direction-column mx-4 p-4">
+                    <p class="sub-heading" style="color: rgb(49, 48, 47);">Turning intangible ideas into product reality
+                    </p>
+                    <h1>Ideas Made Alive</h1>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Iaculis dapibus magnis conubia fringilla
+                        aliquet. Ad tempus iaculis congue sed vitae himenaeos ligula nisl. Molestie turpis euismod
+                        egestas duis lobortis sodales pharetra sem. Efficitur placerat nec hendrerit elementum non fusce
+                        congue eu non. Leo cras curae per mauris fames primis. Tellus auctor cras habitasse habitant
+                        augue tristique luctus platea.</p>
+                </div>
+                <video class="img-fluid videoBackground" autoplay loop>
+                    <source src="Videos/4614907-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+                    Video is not supported
+                </video>
+            </div>
+        </div>
+        <div class="container-fluid light-greydiv">
+            <div class="row">
+                <div class="col-sm p-3 mt-4">
+                    <h1 class="text-center">Our Clients</h1>
+                    <div class="d-flex justify-content-evenly">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Singapore_Polytechnic_logo.png"
+                            alt="Singapore Polytechnic Logo" class="ClientImage img-fluid hidden">
+                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp" alt="dummy"
+                            class="ClientImage img-fluid hidden">
+                        <img src="https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw"
+                            alt="Google" class="ClientImage img-fluid hidden">
+                        <img src="https://www.sp.edu.sg/images/default-source/default-album/sp-70-logo.png?sfvrsn=7dfc222d_0"
+                            alt="Singapore Polytechnic 70th Log" class="ClientImage img-fluid hidden">
+                        <img src="https://freebiehive.com/wp-content/uploads/2023/04/Youtube-Logo-Vector.jpg"
+                            alt="Youtube Logo" class="ClientImage img-fluid hidden">
+                        <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp" alt="dummy"
+                            class="ClientImage img-fluid hidden">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid hidden">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="https://ipsf.net/wp-content/uploads/2021/12/dummy-image-square.webp" alt="dummy"
+                        class="img-fluid" id="productImg" />
+                </div>
+                <div class="col-sm p-5">
+                    <h1>Products</h1>
+                    <hr>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Iaculis dapibus magnis conubia fringilla
+                        aliquet. Ad tempus iaculis congue sed vitae himenaeos ligula nisl. Molestie turpis euismod
+                        egestas duis lobortis sodales pharetra sem. Efficitur placerat nec hendrerit elementum non fusce
+                        congue eu non. Leo cras curae per mauris fames primis. Tellus auctor cras habitasse habitant
+                        augue tristique luctus platea.</p>
+                    &nbsp;
+                    <p>Euismod pulvinar taciti quisque proin efficitur praesent sociosqu euismod. Leo pharetra
+                        ullamcorper mattis fames tempus aptent libero; imperdiet eleifend. Elit leo ultrices ornare
+                        tincidunt aenean dictumst imperdiet dapibus. Placerat elit eu viverra volutpat proin nunc.
+                        Pretium neque litora penatibus commodo interdum lectus. Praesent himenaeos posuere tellus
+                        pretium augue nisi. Blandit aenean convallis natoque vehicula iaculis pulvinar efficitur elit.
+                        Conubia senectus lacus per augue nullam duis. </p>
+                    &nbsp;
+                    <p>Lacinia lobortis semper nec malesuada congue taciti. Auctor arcu taciti cursus dis ornare ex
+                        laoreet litora platea. Nascetur vitae tempus quis; ipsum purus etiam gravida ultricies. Mauris
+                        commodo aenean hendrerit a potenti. Blandit quis inceptos ultrices fermentum ex mus a himenaeos.
+                        Accumsan quis tempor vel vehicula mi sollicitudin nam adipiscing. Felis est mattis nam aliquam
+                        sodales lorem.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid light-greydiv p-4">
+            <div class="row">
+                <div class="col-sm px-5 p-4 hidden">
+                    <img src="https://daughtersoftheforest.com/wp-content/uploads/2013/11/dummy-image-landscape.jpg"
+                        alt="dummy" class="mx-auto my-auto img-fluid serviceImg " />
+                </div>
+                <div class="col-sm px-5 p-4 hidden">
+                    <h2>Product Development Solutions (PDS)</h2>
+                    <p>Our years of experience in mechanism and enclosure design as well as engineering services provide
+                        us with valuable exposures to product development industry.</p>
+                    <ul>
+                        <li class="serviceSubTitles">Industrial Design</li>
+                        <ul>
+                            <li>Product architecture design</li>
+                            <li>Product enclosure design</li>
+                            <li>Mechanism design</li>
+                        </ul>
+                        <li class="serviceSubTitles">Product Development Consultancy</li>
+                        <ul>
+                            <li>Electronic development</li>
+                            <li>Engineering analysis</li>
+                            <li>Design review and design quality assurance</li>
+                            <li>CAE Analysis</li>
+                            <li>Mold flow and manufacturability consultancy</li>
+                            <li>Manufacturing release & Engineering support</li>
+                        </ul>
+                    </ul>
+                    <button class="buttonForSubmission btn">Read more</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col-sm-6 px-5 p-4 hidden">
+                    <h2>Product Industrialization Solutions (PIS)</h2>
+                    <p>Understanding and meeting the customer’s master plan is crucial in project management. From
+                        initial design concept right up to manufacturing, our PM team undertakes to develop appropriate
+                        project management strategies, attuned to customer guidelines.</p>
+                    <ul>
+                        <li class="serviceSubTitles">New Product Introduction (NPI)</li>
+                        <ul>
+                            <li>Prototyping Management</li>
+                            <li>Tooling Management</li>
+                            <li>Engineering Evaluation Management</li>
+                        </ul>
+                        <li class="serviceSubTitles">Material Supply Chain</li>
+
+                        <ul>
+                            <li>Component Level (Components, Parts)</li>
+                            <li>Assembly Level (Sub Assembly, Box Build)</li>
+                        </ul>
+                    </ul>
+                    <button class="buttonForSubmission btn"> Read more</button>
+                </div>
+                <div class="col-sm-6 px-5 p-4 hidden">
+                    <img src="https://daughtersoftheforest.com/wp-content/uploads/2013/11/dummy-image-landscape.jpg"
+                        alt="dummy" class="mx-auto my-auto img-fluid serviceImg" />
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid light-greydiv">
+            <form id="form">
+                <div class="row px-4 pt-4">
+                    <div class="col-sm-4 p-2">
+                        <h1>Got a question in mind?</h1>
+                        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Iaculis dapibus magnis conubia fringilla
+                            aliquet. </p>
+                    </div>
+                    <div class="col-sm-4 p-3">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Enter first name"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="companyName" class="form-label">Company Name</label>
+                            <input type="text" class="form-control" id="companyName" placeholder="Enter company name"
+                                required>
+                        </div>
+                        <label for="emailinput" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailinput" placeholder="Enter email" required>
+                    </div>
+                    <div class="col-sm-4 p-3">
+                        <label class="form-label" for="floatingInput">Last Name</label>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Enter last name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="jobname">Job Title</label>
+                            <input type="text" class="form-control" id="jobname" placeholder="Enter job title">
+                        </div>
+                        <label class="form-label" for="phone">Phone Number</label>
+                        <br />
+                        <input id="phone" class="form-control" type="tel" name="phone" required />
+                    </div>
+                </div>
+                <div class="row px-4 pb-4">
+                    <div class="col-sm-4">
+
+                    </div>
+                    <div class="col-sm-8">
+                        <div>
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                required></textarea>
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="termsAndConditions" required>
+                                <label class="form-check-label form-label" for="termsAndConditions">I agree to the terms
+                                    and conditions</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="mb-4 buttonForSubmission btn">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+    <footer style="background-color: rgb(64, 64, 64);" class="p-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="https://orcacreation.net/wp-content/uploads/2018/04/orca-creation-light-300x44.png"
+                        class="img-fluid">
+                    &nbsp;
+                    <p style="color: white;" class="px-1">2024 &#169; Orca Creation. All rights reserved</p>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <div class="mb-2">
+                        <img src="Image/marker copy.png" alt="markercopylogo" />
+                        <a class="footeratag"
+                            href="https://www.google.com/maps/place/Orca+Creation+Sdn+Bhd/@1.5437394,103.6808291,1010m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31da722d59edc86d:0xbcc1b927e8d7706e!8m2!3d1.543734!4d103.683404!16s%2Fg%2F11b77wg7bc?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">Malaysia Address</a>
+                    </div>
+                    <div>
+                        <img src="Image/phone-call.png" alt="phonecallogo" />
+                        <a href="tel:+60 7 556 6566" class="footeratag">(607) 556 6566</a>
+                    </div>
+                    <div>
+                        <p style="color: white; font-family: inherit; font-size: inherit;">Reg. No. 200501023187 (705318-T)</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="mb-2">
+                        <img src="Image/marker copy.png" alt="markercopylogo" />
+                        <a class="footeratag"
+                            href="https://www.google.com/maps/place/Singapore+368079/@1.3346257,103.8847771,325m/data=!3m1!1e3!4m6!3m5!1s0x31da178e0bb0d64d:0x1300f7ac70e1171a!8m2!3d1.334798!4d103.885318!16s%2Fg%2F1tf2pr8_?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">Singapore Address</a>
+
+                    </div>
+                    <div>
+                        <img src="Image/phone-call.png" alt="phonecallogo" />
+                        <a class="footeratag" href="tel:+65 6281 8098">(65) 6281 8098</a>
+                    </div>
+                    <div>
+                        <p style="color: white; font-family: inherit; font-size: inherit;">Reg. No. 200510578D</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-4">
+                <div class="col-sm pt-1">
+                    <a href="index.html" style="color: white" class="text-decoration-none">Home</a>
+                </div>
+                <div class="col-sm pt-1">
+                    <a href="HTML/About_us.html" style="color: white" class="text-decoration-none">About Us</a>
+                </div>
+                <div class="col-sm pt-1">
+                    <a href="#" style="color: white" class="text-decoration-none">Services</a>
+                </div>
+                <div class="col-sm pt-1">
+                    <a href="#" style="color: white" class="text-decoration-none">Contact Us</a>
+                </div>
+                <div class="col-sm pt-1">
+                    <a href="#" style="color: white" class="text-decoration-none">Terms and Conditions</a>
+                </div>
+                <div class="col-sm pt-1">
+                    <a href="#" style="color: white" class="text-decoration-none">Clients</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="btn hiddenone" id="go-to-top-button" title="go-to-top-button"><i class="fa fa-chevron-up" aria-hidden="true" ></i></button>
+    <script src="JS/scrollToTop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="JS/app.js"></script>
     <script src="JS/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="JS/indexNavBar.js"></script>
 </body>
+
 </html>
